@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/actionModeSplitBackground"
+    tools:context=".BarleyBreak">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="398dp"
+        android:layout_height="410dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview13"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview14"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#E3CFCF">
+
+            <TextView
+                android:id="@+id/textview21"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview23"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview24"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview31"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview32"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview33"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview34"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview41"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview42"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview43"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+
+            <TextView
+                android:id="@+id/textview44"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/spinner_dropdown_background"
+                android:backgroundTint="#E3CFCF" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/word"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
